@@ -1,0 +1,11 @@
+I've also given this talk internally at Twilio. While the talk is geared a
+little more toward our internal audience, you can find the slides for that
+version here: http://kev.inburke.com/slides/api-library-design/. I am going to
+adjust the content for an outside audience (and rewrite it in PHP).
+
+You should pick this because API's are becoming more and more popular!
+Especially as companies follow Amazon's lead and move to a service oriented
+architecture, which means they are using HTTP internally to retrieve data from
+other resources within the company. Developers will want clients to consume
+those internal or external API's, and there are several principles we've
+learned that can save people a lot of pain when writing wrapper libraries.
