@@ -7,13 +7,13 @@ every word. If busy users can't find what they are looking for, you'll have
 more support tickets (an expense), or more frustration (lost revenue).
 
 Writing effective documentation requires knowing who your users are and how
-they are finding answers to their questions. In this talk we'll take a look at
-several different ways your product documentation is failing busy users. We
-will look at examples from user testing performed with Twilio customers, and
-share the lessons we've learned. We will investigate how users find (or fail to
-find) your documentation, and the importance of good performance in areas you
-might not traditionally consider to be documentation, like error messages and
-SEO.
+they are finding answers to their questions. In this presentation, we'll
+examine practical techniques to make your documentation work for busy users. 
+Looking at examples and user testing from our experience at Twilio, attendees will learn: 
+
+- how users find (or fail to find) your documentation
+- how users view and get started (or fail to get started) with your product
+- how to take advantage of underused documentation tools like your error messages, your API, and SEO.
 
 Kevin is an API Engineer at Twilio, responsible for maintaining Twilio's API
 documentation and API libraries. Kevin once came within seven places of making
