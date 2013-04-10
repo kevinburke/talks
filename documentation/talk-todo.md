@@ -1,0 +1,3 @@
+- fix github pages
+- find documentation percentage
+- quickstart "next page" links
