@@ -83,6 +83,8 @@ what do they look at?
 
 - bulleted lists
 
+- code samples - and none of the surrounding context
+
 #### what don't they look at?
 
 - things that look like ads. example from twilio: "Next Page" link in
@@ -102,6 +104,7 @@ http://media.nngroup.com/media/editor/alertbox/census-homepage-small.gif
 1. Users are coming from Google. SEO matters.
 
 - know basic SEO - url's, titles, one h1, meta description, rich structure etc.
+  error message text
 - angular JS - whole page is a client side app, you can't find anything
 - you might get outranked by demand media
 
