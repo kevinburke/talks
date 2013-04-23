@@ -8,7 +8,11 @@
 
 - So we spend a fair amount of time thinking about our documentation
 
-### Once upon a time, people wrote documentation that no one read
+### What this talk is about
+
+blah blah blah
+
+### What it's not about
 
 - Obviously there are people that don't write documentation
 
@@ -17,21 +21,280 @@
 
 - These problems are outside the scope of this talk. Write documentation
 
-### So you've got some documentation
+### Once upon a time, people wrote documentation that no one read
 
-- I bet you still get support questions about stuff that's answered in the docs
+- How do I know people aren't reading your documentation? because people don't
+  read anything on the internet
 
-- If you do user testing or any kind of lifecycle analysis, you will probably
-  see dropoff between users signing up and users that figure out how to use the
-  API. Lots of reasons go into this - product not useful in your area, customer
+### Explain why no one reads anything
+
+- Jakob Nielsen, bible
+
+- Eye tracking - F shaped pattern
+
+### What do readers look at
+
+- Sub-headings
+
+- Bullet lists
+
+- One idea per paragraph
+
+- Meaningful text and images
+
+- Variations in typeface (Links, bolded text, etc)
+
+### How will this manifest itself?
+
+- Increased support load, for things that are answered in your documentation
+
+- dropoff between signing up, activation.
+
+- people just never getting started with your product
+
+- Lots of reasons go into this - product not useful in your area, customer
   not in the target market, etc. - but possible that they couldn't figure out
   how to get started.
 
-### As a user this is frustrating as hell
+### Frustrating for you
 
-- This is why gary bernhardt gets mad on the internet
+- higher support costs, lower activation etc
+
+### As a user this is frustrating as hell
 
 - This is why people give up computers
 
-### Why do users get frustrated?
+### Why does this happen?
+
+- Lots of reasons, but let's focus on a few
+
+### Imagine the documentation writer
+
+- You've just pushed v1 or about to push it, and you're writing some docs about
+how to use it.
+
+- In a bigger company, the engineers have written the code and the product
+manager or the technical writer has just gotten the specification, or has been
+using the beta.
+
+- Generally doing the bulk of the drafts in one or two sittings.
+
+- You have full knowledge of the product
+
+### Imagine the reader
+
+- Reader is very distracted
+
+- 10 tabs open
+
+- Very bad at searching
+
+### Examples
+
+- Twilio Quickstart - "Click button to read more"
+
+- Code snippet that needs context
+
+- $ foo baz bang
+
+### Habit: users are also really bad searchers.
+
+- Nielsen, "Incompetent Research Skills Curb Users' Problem Solving"
+
+- People don't change their search query to try and find an answer. They just
+  try different results for the same search
+
+- Spolsky - question needs to be asked 4 different ways to cover all the ways
+  people search for it.
+
+### Why do people scan?
+
+- Clay Christensen, "jobs to be done"
+
+- We sell milkshakes. Who should we sell them to?
+
+- Kids, moms, etc.
+
+- flip it around. Why do you buy a milkshake?
+
+- Commuters - want a thicker milkshake, keep them occupied during the commute.
+
+- Kids - want a thinner milkshake so their parents don't get annoyed.
+
+### Apply the same to your documentation
+
+- Hiring your product to do a job
+
+- Writing your documentation to explain what the product does
+
+- But people visit your documentation for all sorts of different reasons
+
+- The problems they have are unrelated to the problem (as you've laid them out)
+on your site
+
+### Examples:
+
+- Not just "I'm trying to send an SMS" - "I want to send a message to a user's
+phone number from this specific line of Ruby code in my program"
+
+### How can you find out what users are trying to do?
+
+- They'll tell you. Look at your support tickets.
+
+- Look at your forum if you have one. 
+
+- Look at your Google Analytics data
+
+- Compare the mental model of users to your own mental model of the product
+
+### What we did about this
+
+- We saw a lot of people looking for language-specific data
+
+- Moved the code samples inline
+
+### Let's try to come up with a model for how users complete a task
+
+- Here's an error a user came up with when trying to send an SMS.
+
+- OpenSSL::SSL::SSLError: SSL\_connect returned=1 errno=0 state=SSLv3 read server certificate B:  certificate verify failed
+
+- Let's say you got that error - What is the first thing you're gonna do?
+
+### Google search results
+
+- None of these are your website.
+
+- Where does that leave the user?
+
+### Lesson
+
+If users get an error message a lot, put the exact text in your documentation
+
+### People on the Internet know this
+
+- don't get outranked by Ehow
+
+### Going even further
+
+- If you're going to put it in your documentation, why not just fix it at the
+source?
+
+- Does anyone know why this error actually happens?
+
+- Error generated by Ruby Std Lib for SSL error. Not your problem, but it kind
+  of is your problem. It's getting in the way of users with your software
+
+### Andrew SSL cert commit
+
+
+### Another example of this
+
+RVM:
+
+    $ \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enabled # Or, --ruby=1.9.3
+
+### Example
+
+This is really easy to do 
+
+```ruby
+    def post
+        if !is_valid_url params[:url]
+            flash[:error] = "Url is invalid"
+            redirect_to :action => 'settings'
+        end
+
+        # Do something with the form..
+    end
+```
+
+### Raises a lot of questions
+
+- Which Url is invalid?
+
+- Why is it invalid? Empty? Blacklisted domain? Malformed?
+
+- What data am I actually sending over the wire?
+
+- Could write documentation for this...or
+
+### Better
+
+```ruby
+    def post
+        if !params.has_key(:url) or params[:url].length == 0
+            flash[:error] = "Please include a Url"
+        end
+        if !is_valid_url params[:url]
+            flash[:error] = "Url #{params[:url]} is invalid"
+            redirect_to :action => 'settings'
+        end
+
+        # Do something with the form..
+    end
+```
+
+### Best
+
+I see this all the time
+
+```ruby
+    if !is_valid_url params[:url]
+        flash[:error] = "Url #{params[:url]} is invalid"
+        if is_valid_url "http://#{params[:url]}"
+            flash[:error] += ". Did you mean http://#{params[:url]}?"
+        end
+        redirect_to :action => 'settings'
+    end
+```
+
+- Is this a lot of work? Sure
+
+- So is marketing, sales, conversion optimization etc.
+
+- Costs more to have them drop off, get frustrated now than it does before
+  they're in the door
+
+### Learn more about your users
+
+- What are they trying to do?
+
+- How are they finding your content?
+
+- When they screw up, how do they find answers to their questions?
+
+### Going even further - user testing
+
+- Don't need a fancy lab. Don't need a whole lot of users.
+
+- Pick a simple task on your site and ask a user to do it. Then be quiet and
+  watch them do it.
+
+### Takeaways - SEO
+
+- SEO is important. Stick your important error messages in your docs
+
+- Headlines should describe the page. Meta description should describe the
+  content. URL should describe the content.
+
+- Don't make your documentation a PDF
+
+### Takeaways - Errors
+
+- The cause of user failure is rarely a lack of documentation. Often:
+Confusion, couldn't find/didn't look for the docs, user model of the product
+doesn't match yours.
+
+- Go closer to the user. Make your error messages the documentation
+
+- Fix problems before users even have them
+
+### Takeaways - Make your documentation readable
+
+- https://github.com/docusign/DocuSign-eSignature-SDK - fixed width
+
+- lines are too long https://developer.atlassian.com/static/rest/jira/5.2.10.html
+
+Use "steps"
 

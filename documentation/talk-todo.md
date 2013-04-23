@@ -40,9 +40,23 @@ Because of that, they realized instead of pointing users to the documentation
 from error messages, they could make the error messages the documentation.
 Until finally user success rates got much higher
 
-Once upon a time there was . 
-Every day, ___. 
-One day ___.
-Because of that, ___.
-Because of that, ___.
-Until finally ___.
+<!--Once upon a time there was . -->
+<!--Every day, ___. -->
+<!--One day ___.-->
+<!--Because of that, ___.-->
+<!--Because of that, ___.-->
+<!--Until finally ___.-->
+
+- why are users frustrated? not writing docs in a way that people read
+- "writing documentation" shouldn't be the end goal. solving user problems
+  should be
+- research your users
+- what will you find? they are coming from google
+- people fail for reasons totally unrelated to your documentation
+- takeaways:
+    - user stories
+    - seo
+    - error messages
+    - user testing, to measure success rates
+    - writing for the web
+
