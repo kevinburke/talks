@@ -298,3 +298,19 @@ doesn't match yours.
 
 Use "steps"
 
+
+### feedback
+
+- make it a story
+
+- explain why you care
+
+- move examples earlier in the talk
+
+- This is who Twilio is - in the introduction
+
+- Tell a story with examples
+
+- alternate who you're looking at
+
+
