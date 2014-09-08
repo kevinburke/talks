@@ -1,10 +1,34 @@
-Introduce myself - I'm not particularly good at preventing errors myself, but I've read a ton of academic data
+### Abstract
 
-TOC:
+Why do we make errors while programming? How many tests are enough? How can you and your team catch more errors before you ship code to customers? We'll analyze decades of industry research into the sources of errors, and the effectiveness of tools like unit testing and code review. You'll learn techniques that help cut down on errors and make your team more effective.
+
+### Audience
+
+Engineers who strive to get better at writing error-free code; managers who want to help their teams move faster.
+
+### Objectives
+
+In this talk you'll learn:
+
+- Can I actually decrease my error rate while I write code?
+- Which error-finding tools (unit test, regression test, code review, formal inspection) are most effective at finding errors?
+- What are formal inspections, and how can they help you write better code?
+- How are errors distributed through my codebase? Which smells in my code (for example, unused variables) are correlated with errors?
+- How expensive is it to fix defects in development vs. after they go to production?
+- Is there any evidence that some programmers are 10x more efficient than others?
+
+### Outline
+
+**Note:** I don't have perfect timing data for this talk, though the last time
+I gave it, I landed at 28 minutes.
+
+Introduce myself, outline the talk
+
+Talk Overview:
 
 - How is research conducted into software issues?
 
-- Is it possible for me to make fewer errors while building software?
+- Is it possible for you to make fewer errors while building software?
 
 - Where do errors come from/what do we know about them?
 
@@ -40,7 +64,7 @@ Present data showing how much of our time goes into finding, fixing mistakes
 mistakes in a correct program
 - Most errors are localized - 85% can be fixed in a single class or routine
   (Endres 1975)
-- Most errors are your fault - don't blame hardware or the compiler
+- Most errors are your fault - don't blame hardware, the compiler, AWS, etc
 - Changing requirements, communication breakdowns (Fred Brooks), thin
   domain knowledge all correlate with errors
 - Unused variables, high numbers of comments, complex control flow correlate with errors
@@ -110,3 +134,27 @@ Review, and then time for questions.
 
 [chart]: https://kev.inburke.com/slides/errors/#different-types-of-review
 
+
+### Additional Notes
+
+I gave this talk internally at Twilio, then at the Go SF meetup, and was approached by multiple people after the meetup who wanted me to give it privately to the engineers at their company. I think the content of this talk resonates with a lot of people who want to know how to best spend their time and what they can do to prevent errors.
+
+I also submitted this talk to the SF Python Meetup Group, hopefully it'll get picked for an upcoming meetup so I can practice some more.
+
+[The slides from that talk are online here][slides]. I am worried about being able to present the data at "ballroom distance," so if it gets accepted, I'm going to clean up *all* of the charts present (and probably add more) using Flot or similar, so they're appropriate and readable at Pycon conference room distances.
+
+[slides]: https://kev.inburke.com/slides/errors/
+
+I'm also going to look at more recent studies; a lot of the data comes from Code Complete, which was written in 2004, so there's a lot of new material to summarize.
+
+### Background
+
+Until very recently I was an API engineer at Twilio, responsible for scaling the API and reviewing all code related to it.
+
+I have previously given talks at Railsconf 2013, Twiliocon, and the API Strategy Conference, as well as many times internally at Twilio. [Here is a video of me giving a talk on client libraries at Twiliocon][twiliocon].
+
+[twiliocon]: https://www.youtube.com/watch?v=C_UJHqR_2Mo
+
+I would love to speak at Pycon - everyone struggles with building error-free software and the best way to spend engineering resources and there's a ton of value in here for people who are curious about it.
+
+I spent most of this week in the library reading papers, requesting more resources, working on this talk, and would love to share with everyone at Pycon what I've learned about how to build better software.
