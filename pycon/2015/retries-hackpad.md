@@ -54,7 +54,6 @@ Writing all this code in Python can cause a try/catch spaghetti nightmare. We'll
     *   Setting timeouts
     *   Retrying everything
     *   Retrying only idempotent requests
-    *   Using a custom function to validate the response from the server, and determine whether to retry or not.
 
 *   Walk through how to test your code - you can use [dummyserver][dummy], httpbin, or [hamms](github.com/kevinburke/hamms) to simulate various types of request failures.
 
