@@ -10,16 +10,6 @@
 
 ## The story you'd like to tell
 
-* Name      : Kevin Burke
-* Location  : San Francisco, CA, USA
-* Email     : kev@inburke.com
-* Twitter   : [@ekrubnivek](https://twitter.com/ekrubnivek)
-* GitHub    : [kevinburke](https://github.com/kevinburke)
-* Url       : [kev.inburke.com](https://kev.inburke.com)
-* Url       : [twentymilliseconds.com](https://twentymilliseconds.com)
-
-## The story you'd like to tell
-
 It's really hard to design great UI's for virtual reality. How do you enter in
 letters if you can't assume a keyboard? How would you process a credit card if
 you have to take off the device to read the card number? For virtual reality,
