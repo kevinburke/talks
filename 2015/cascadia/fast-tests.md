@@ -1,4 +1,4 @@
-# Writing Fast tests with Sails: Don't Load Sails
+# Write Fast Tests with Sails? Don't Load Sails
 
 * Name      : Kevin Burke
 * Location  : San Francisco, CA, USA
