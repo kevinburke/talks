@@ -1,6 +1,5 @@
 ## Biography
 
-Most recently Kevin was an API Engineer at Twilio, responsible for maintaining
-an API that handles hundreds of requests per second from many different client
-libraries. Kevin once came within seven places of making the National Spelling
-Bee.
+Kevin Burke (https://kev.inburke.com) likes building great experiences. He
+helped scale Twilio and Shyp, and currently runs a software consultancy. Kevin
+once accidentally left Waiting for Godot at the intermission.
