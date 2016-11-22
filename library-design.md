@@ -31,6 +31,6 @@ Kevin once came within seven places of making the National Spelling Bee.
 * [Github][github]
 
 [site]: http://kev.inburke.com
-[twitter]: http://twitter.com/ekrubnivek
+[twitter]: http://twitter.com/derivativeburke
 [github]: http://github.com/kevinburke
 

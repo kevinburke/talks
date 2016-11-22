@@ -3,7 +3,7 @@
 * Name      : Kevin Burke
 * Location  : San Francisco, CA, USA
 * Email     : kev@inburke.com
-* Twitter   : [@ekrubnivek](https://twitter.com/ekrubnivek)
+* Twitter   : [@derivativeburke](https://twitter.com/derivativeburke)
 * GitHub    : [kevinburke](https://github.com/kevinburke)
 * Url       : [kev.inburke.com](https://kev.inburke.com)
 

@@ -31,7 +31,7 @@ I came within seven places of making the National Spelling Bee.
 
 [twilio-github]: https://github.com/twilio
 [site]: http://kev.inburke.com
-[twitter]: http://twitter.com/ekrubnivek
+[twitter]: http://twitter.com/derivativeburke
 [github]: http://github.com/kevinburke
 [bitbucket]: http://bitbucket.org/kevinburke
 
