@@ -14,4 +14,4 @@
 
 [Hacking Roller Coaster Tycoon with Genetic Algorithms and Go][rct], Oscon, July 2015.
 
-[rct]: https://www.youtube.com/watch?v=6mRFITUwCVU
+[rct]: https://www.youtube.com/watch?v=KUBYTcVjp7I
