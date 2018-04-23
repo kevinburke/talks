@@ -15,3 +15,7 @@
 [Hacking Roller Coaster Tycoon with Genetic Algorithms and Go][rct], Oscon, July 2015.
 
 [rct]: https://www.youtube.com/watch?v=KUBYTcVjp7I
+
+[Becoming a Go Contributor][go-contributor], GothamGo, August 2017.
+
+[go-contributor]: https://www.youtube.com/watch?v=TXUuU9oKiXg
