@@ -3,7 +3,7 @@
 This repo contains a list of topics I'd be happy to talk to your company or
 conference about. [Click here to book me for your next conference][mailto].
 
-[mailto]: kev+talks@inburke.com
+[mailto]: kevin+talks@burke.dev
 
 I must admit I haven't given many talks at conferences. I have given many
 talks in the past though, in college courses as well as internally at Twilio,
@@ -17,11 +17,6 @@ Francisco][html].
 
 ## About Me
 
-I am an API Engineer at Twilio, a company that makes it easy for web developers
-to integrate phone calls and SMS into web applications. I am responsible for
-maintaining Twilio's documentation and [API libraries][twilio-github]. One time
-I came within seven places of making the National Spelling Bee.
-
 ## More contact information
 
 * [Website][site]
@@ -30,8 +25,7 @@ I came within seven places of making the National Spelling Bee.
 * [Bitbucket][bitbucket]
 
 [twilio-github]: https://github.com/twilio
-[site]: http://kev.inburke.com
-[twitter]: http://twitter.com/derivativeburke
-[github]: http://github.com/kevinburke
-[bitbucket]: http://bitbucket.org/kevinburke
-
+[site]: http://kevin.burke.dev
+[twitter]: https://twitter.com/derivativeburke
+[github]: https://github.com/kevinburke
+[bitbucket]: https://bitbucket.org/kevinburke

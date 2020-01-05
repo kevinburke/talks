@@ -45,7 +45,7 @@ http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=11&psid=3837
 
 - Layoffs
 
-- Retraining
+- Retraining (not very effective)
 
 - Adjacent industries (transportation...)
 
@@ -61,9 +61,40 @@ http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=11&psid=3837
 
 - Building a website
 
+## What about areas where productivity doesn't increase?
+
 ## William Baumol
 
-## What about areas where productivity doesn't increase?
+## Why do artists starve?
+
+## Part 1: Nonprofits can always make a higher quality product
+
+## Part 2: Costs are going to increase forever
+
+## Wages rise as productivity increases*
+
+## How much does a company have to pay?
+
+## Salary (very roughly): How much do we have to pay to get you to *not* work at
+## all of the other companies?
+
+## Say a company gets more productive
+
+10 people can make 2 cars per day = $1000 revenue/worker/day
+
+10 people can make 4 cars per day = $2000 revenue/worker/day
+
+## They are willing to pay more for workers!
+
+## What happens at the companies that are not productive, if another company is
+## willing to pay more?
+
+## Google, etc.
+
+## Baumol: What happens at the *nonprofits* that are not productive, if another
+## company is willing to pay more?
+
+## Productivity in the performing arts is not increasing
 
 ## Mozart's String Quartet No. 22
 
@@ -79,45 +110,23 @@ http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=11&psid=3837
 
 - Diagnosing an illness
 
-- Teaching first grade to 30 students
+- Hour long massage
 
-- Reporting the news
+- Teaching first grade to 30 students
 
 - Serving drinks at a bar
 
-## What does this mean?
+## How much do you have to pay a (barber/dancer/masseuse) to *not* make
+## cars/work for Google etc?
 
-- Population needs 100 potatoes per person per year
-- 10 haircuts per person per year
+## Barbers in a land of productivity increases
 
-One farmer for every 1000 potatoes == 10 potato farmers for every 100 people
-One barber for every 1000 haircuts == 1 barber for every 100 people
-
-## Share of the labor force
-
-Farming - 10%
-Barbers - 1%
-
-## After productivity increase:
-
-One farmer for every 500000 potatoes == 1 potato farmer for every 5000 people
-One barber for every 1000 haircuts == 1 barber for every 100 people
-
-## Share of the labor force
-
-Barbers - 1%
-Farming - 0.02%
-
-## People want raises. Which is good!
-
-## Giving farmers a raise - not really a problem.
-
-## Giving barbers a raise..
+Wage increases mean haircuts cost more
 
 Cost of a haircut is going to rise faster than the cost of everything else
 (food, rent)
 
-Over the long run this means it will be bigger and bigger % of the economy
+Over the long run this means haircuts will be bigger and bigger % of the economy
 
 ## "Cost disease"
 
@@ -133,8 +142,6 @@ Over the long run this means it will be bigger and bigger % of the economy
 
 baumol1993.pdf - both charts of manufacturing, ag, education
 
-https://www.healthsystemtracker.org/chart-collection/u-s-spending-healthcare-changed-time/#item-health-spending-growth-outpaced-growth-u-s-economy_2017
-
 ## Why are jobs so bad?
 
 In the past sixteen years, 94 per cent of the net jobs created were in
@@ -144,7 +151,7 @@ start of the millennium…
 
 https://ftalphaville.ft.com/2016/09/08/2173904/the-great-american-make-work-programme/
 
-## Are we doomed?
+## Are healthcare and education just gonna be expensive forever?
 
 ## We do have small productivity improvements
 
@@ -161,15 +168,12 @@ Today: 4 hours
 
 - Decrease in error rate
 
-## Generally speaking we are getting richer
+## *If* people are getting richer
 
 We can spend more money on healthcare+education without cutting back on anything
 else
 
-## Is housing a cost disease good?
-
-Rent is expensive. Not really... zoning more of a factor. Costs not increasing
-as much in Texas, which builds housing
+Bad news for *individual people* if wages are not increasing
 
 ## What does this imply?
 
