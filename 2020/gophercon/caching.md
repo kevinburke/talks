@@ -2,7 +2,7 @@
 
 ### Elevator pitch
 
-Go's build and test caching can speed up compiling, testing and deploying your programs. In this talk you'll learn how Go's build and test caching work, and how to debug when your programs are *not* being cached. We'll end with some tips for making your Go code, builds and tests more cacheable.
+Go's build and test caching can speed up compiling, testing and deploying your programs. In this talk you'll learn how Go's build and test caching work, how to make your builds and tests hit the cache more often, and how to write your own caches using the same principles.
 
 ### Description
 
@@ -26,15 +26,14 @@ Here's an outline of the talk:
 
 Caching is a pretty simple concept to explain:
 
-```
-cachedResult := resultHasBeenComputedBefore(params)
+<pre><code>cachedResult := resultHasBeenComputedBefore(params)
 if (cachedResult) {
     return cachedResult
 }
 return doExpensiveThing(params)
-```
+</code></pre>
 
-The trick is in pretty much every detail, like:
+The devil is in the details:
 
 - How do you look up cached results?
 - How do you store the cached result?
